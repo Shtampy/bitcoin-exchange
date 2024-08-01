@@ -1,0 +1,19 @@
+
+
+.list{
+    display: grid;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.list:nth-child(odd) {
+    background-color: rgb(231, 231, 231); 
+}
+
+.list:nth-child(even) .heading {
+    color: #d88e06;
+}
+
+.list:nth-child(odd) .heading {
+    color: #d1a82b;
+}
